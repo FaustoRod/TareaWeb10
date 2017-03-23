@@ -11,24 +11,24 @@
 	
 	<body>
 		<header>
-						
-			<div class="header-item logo-cont">
-				<div id="logo">
-					<img src="assets/techlogo.png" style="width:100%;height:100%;">
+			<div class="header-main">			
+				<div class="header-item logo-cont">
+					<div class="logo">
+						<img src="assets/logo.png" style="width:100%;height:100%;">
+					</div>
+
+					<div class="titulo">
+					<h1>My-Tech</h1>
+					</div>
 				</div>
-				
-				<div id="titulo">
-				d
+
+				<div class="header-item">
+				</div>
+
+				<div class="header-item">
+					redes
 				</div>
 			</div>
-			
-			<div class="header-item">
-			</div>
-			
-			<div class="header-item">
-				redes
-			</div>
-		
 		</head>
 		<script type="text/javascript" src="JavaScript/javascript.js"></script>
 		<script type="text/javascript" src="JavaScript/jquery-3.1.1.min.js"></script>
