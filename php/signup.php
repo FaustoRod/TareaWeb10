@@ -1,6 +1,6 @@
 <?php
 
-include("database.php");
+require_once("database.php");
 
 $nombre = $_POST['user_nombre'];
 $apellido = $_POST['user_apellido'];

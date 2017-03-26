@@ -34,6 +34,7 @@
 			<div id="menu">
 				<div class="menu-item">
 					<a href="add.php">Add Tech</a>
+					
 				</div>
 				<div class="menu-item">
 					<a href="viewall.php">View all</a>

@@ -1,5 +1,6 @@
 <?php
 	session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,14 +52,14 @@
 						</div>
 						<div class="add-form-field">
 							<label for="Modelo">Modelo:</label><br>
-							<input type="text" name="Modelo:"></input>
+							<input type="text" name="modelo"></input>
 						</div>
 						<div class="add-form-field">
-							<label for="fecha compra">Fecha de Compra:</label><br>
+							<label for="date">Fecha de Compra:</label><br>
 							<input type="date" name="date"></input>
 						</div>
 						<div class="add-form-field">
-							<label for="fecha compra">Fecha de Compra:</label><br>
+							<label for="tipo">Tipo:</label><br>
 							<input type="radio" name="tipo" value="TV">TV</input>
 							<input type="radio" name="tipo" value="Laptop">Laptop</input>
 							<input type="radio" name="tipo" value="SmartPhone">SmartPhone</input>
