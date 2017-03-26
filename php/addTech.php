@@ -3,12 +3,13 @@
 session_start();
 require_once("database.php");
 
-$dir = "../images".basename($_FILES['foto']['name']);
+$dir = "../images/".basename($_FILES['foto']['name']);
 $file = $_FILES['foto']['tmp_name'];
 
-$id_user = $_SESSION['id'];
+$id_user = $_SESSION['id_user'];
 $marca = $_POST['marca'];
 $modelo = $_POST['modelo'];
+$peso = $_POST['peso'];
 $fecha = $_POST['date'];
 if(isset($_POST['tipo'])){
 	$tipo = $_POST['tipo'];
@@ -21,7 +22,7 @@ if(move_uploaded_file($file,$dir)){
 
 $comentario = $_POST['comentario'];
 	
-$sql = "INSERT INTO aparato (id_user, marca, modelo, fecha, tipo, color, foto, comentario) VALUES ('$id_user','$marca','$modelo','$fecha','$tipo', '$color','$foto','$comentario')";	
+$sql = "INSERT INTO aparato (id_user, marca, modelo, peso, fecha, tipo, color, foto, comentario) VALUES ('$id_user','$marca','$modelo','$peso','$fecha','$tipo', '$color','$foto','$comentario')";	
 
 $conexion->query($sql);
 

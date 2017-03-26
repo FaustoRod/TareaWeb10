@@ -55,6 +55,10 @@
 							<input type="text" name="modelo"></input>
 						</div>
 						<div class="add-form-field">
+							<label for="Peso">Peso:</label><br>
+							<input type="text" name="peso"></input>
+						</div>
+						<div class="add-form-field">
 							<label for="date">Fecha de Compra:</label><br>
 							<input type="date" name="date"></input>
 						</div>
@@ -85,6 +89,15 @@
 							<textarea name="comentario" maxlenght="200" rows="5" cols="50"></textarea>
 						</div>
 						<button type="submit" name="addTechBtn" id="addTechBtn">Agregar</button>
+<?php
+$dir = "../images".basename($_FILES['foto']['name']);
+$file = $_FILES['foto']['tmp_name'];
+if(move_uploaded_file($file,$dir)){
+	$foto = $dir;
+}
+
+echo $foto;
+?>
 					</form>
 				</div>
 				

@@ -31,6 +31,11 @@
 		</div>
 	
 	<div id="tech-info">
+		<?php
+		
+		include("../php/getTech.php");
+		echo $_SESSION['id_user'];
+		?>
 	</div>
 	<body>
 	

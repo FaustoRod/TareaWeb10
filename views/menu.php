@@ -34,7 +34,9 @@
 			<div id="menu">
 				<div class="menu-item">
 					<a href="add.php">Add Tech</a>
-					
+					<?php
+					echo $_SESSION['id_user'];
+					?>
 				</div>
 				<div class="menu-item">
 					<a href="viewall.php">View all</a>
