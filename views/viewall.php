@@ -31,6 +31,7 @@
 		</div>
 	
 	<div id="tech-info">
+		<a href="add.php" style="text-decoration:none;padding:5px;border:2px solid black; color:white;background-color:black;font-size:30px;">Agregar Mas</a>
 		<?php
 		
 		include("../php/getTech.php");	

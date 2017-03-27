@@ -32,6 +32,7 @@
 			</div>
 		</div>
 		<div class="add-main">
+			<a href="menu.php"><img src="../assets/out.png" style="width:30px;padding-top:20px;"></a>
 			<div id="add-form-cont">
 				<div class="add-form-item">
 					<form action="../php/addTech.php" method="post" enctype="multipart/form-data">

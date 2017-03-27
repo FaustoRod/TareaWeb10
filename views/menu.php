@@ -26,7 +26,9 @@
 				</div>
 
 				<div class="header-item">
-					redes
+					<form method="post" action="../php/logout.php">
+						<button type="submit" style="background-color:transparent; color:white;border-radius:20px;font-size:35px;width:250px;margin-top:25px;">logout</button>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -34,11 +36,11 @@
 			<div id="menu">
 				<div class="menu-item">
 					<a href="add.php" style="text-decoration:none"><h3 style="text-align:center;color:black;">Agregar Aparato</h3></a>
-					<img src="../assets/pc.png" style="margin:auto; padding-left:170px;padding-top:35px;">
+					<img src="../assets/pc.png" style="margin:auto; padding-left:260px;padding-top:35px;">
 				</div>
 				<div class="menu-item">
 					<a href="viewall.php" style="text-decoration:none"><h3 style="text-align:center;color:black;">Ver Aparatos</h3></a>
-					<img src="../assets/fon.png" style="padding-left:170px; padding-top:35px;">
+					<img src="../assets/fon.png" style="padding-left:270px; padding-top:35px;">
 				</div>
 			</div>
 		</div>
