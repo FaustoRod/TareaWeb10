@@ -33,16 +33,12 @@
 		<div id="menu-cont">
 			<div id="menu">
 				<div class="menu-item">
-					<a href="add.php">Add Tech</a>
-					<?php
-					echo $_SESSION['id_user'];
-					?>
+					<a href="add.php" style="text-decoration:none"><h3 style="text-align:center;color:black;">Agregar Aparato</h3></a>
+					<img src="../assets/pc.png" style="margin:auto; padding-left:170px;padding-top:35px;">
 				</div>
 				<div class="menu-item">
-					<a href="viewall.php">View all</a>
-				</div>
-				<div class="menu-item">
-					
+					<a href="viewall.php" style="text-decoration:none"><h3 style="text-align:center;color:black;">Ver Aparatos</h3></a>
+					<img src="../assets/fon.png" style="padding-left:170px; padding-top:35px;">
 				</div>
 			</div>
 		</div>

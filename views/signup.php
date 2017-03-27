@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		
-		<div id="signup-cont">
+		<div id="signup-cont">	
 			<div id="signup-form">
 				<div id="signup-form-cont">
 					<h2>Registro</h2>
